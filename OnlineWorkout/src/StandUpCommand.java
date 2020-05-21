@@ -1,16 +1,17 @@
 
 public class StandUpCommand implements Command {
 
-	private Trainee position;
+	private Trainee traineePosition;
 	
-	public StandUpCommand(Trainee position) {
-		this.position = position;
+	public StandUpCommand(Trainee traineePosition) {
+		this.traineePosition = traineePosition;
 	}
 
 	@Override
 	public void changePosition() {
 		System.out.println("Stand up!");
-		this.position.standUp();
+		this.traineePosition.standUp();
+		
 	}
 
 }

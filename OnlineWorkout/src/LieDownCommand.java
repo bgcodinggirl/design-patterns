@@ -1,16 +1,16 @@
 
 public class LieDownCommand implements Command {
 
-	private Trainee position;
+	private Trainee traineePosition;
 	
 	public LieDownCommand(Trainee position) {
-		this.position = position;
+		this.traineePosition = position;
 	}
 
 	@Override
 	public void changePosition() {
 		System.out.println("Lie down!");
-		this.position.lieDown();
+		this.traineePosition.lieDown();
 	}
 
 }
