@@ -1,0 +1,20 @@
+International counter's current state: Stand and wait...
+
+Country counter's current state: Stand and wait...
+
+City counter's current state: Stand and wait...
+
+International counter's current state: Parcel preparation
+International counter is preparing parcel  (-> No: 2 (nike sweatshirts) <-).
+Worker 1 takes the parcel from the international counter in order to ship it to the warehouse.
+The counter's state is changed to: Stand and wait...
+
+City counter's current state: Parcel preparation
+City counter is preparing parcel  (-> No: 1 (white sneakers) <-).
+Worker 1 takes the parcel from the city counter in order to ship it to the warehouse.
+The counter's state is changed to: Stand and wait...
+
+Country counter's current state: Parcel preparation
+Country counter is preparing parcel  (-> No: 3 (bermuda shorts) <-).
+Worker 1 takes the parcel from the country counter in order to ship it to the warehouse.
+The counter's state is changed to: Stand and wait...
